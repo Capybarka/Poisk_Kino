@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+}
+
+.background-gradient {
+  background: rgb(179, 46, 46);
+  background: linear-gradient(0deg, rgb(179, 46, 46) 0%, rgb(223, 143, 62) 100%);
+  color: white;
+}
+
+.pagination-container {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.paginate-buttons {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #d14234;
+  color: white;
+  box-shadow: 2px 2px 5px rgb(17, 17, 17);
+}
+
+@media (max-width: 500px) {
+  .paginate-buttons {
+    height: 30px;
+    width: 30px;
+  }
+}
+.paginate-buttons:hover {
+  background-color: #d14234;
+}
+
+.active-page {
+  background-color: #f58378;
+  border: 1px solid #f58378;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
